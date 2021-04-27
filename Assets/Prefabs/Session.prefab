@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3315264953252518929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3315264953252518930}
+  - component: {fileID: 3315264953252518932}
+  - component: {fileID: 3315264953252518931}
+  - component: {fileID: 5907861074933413131}
+  - component: {fileID: 687772346}
+  m_Layer: 0
+  m_Name: Session
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3315264953252518930
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315264953252518929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3315264953252518932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315264953252518929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7c3095238fe71e4b988e0ae4629d2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3315264953252518931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315264953252518929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f35556a64f828f4fb3dc99006e37f14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewDistance:
+    levels:
+    - value: 24
+      message: 
+      quoteOverride: 
+      minDepth: 0
+    - value: 18
+      message: view distance improved
+      quoteOverride: 
+      minDepth: 0
+    - value: 12
+      message: view distance improved
+      quoteOverride: 
+      minDepth: 100
+  initialShovels:
+    levels:
+    - value: 40
+      message: 
+      quoteOverride: 
+      minDepth: 0
+    - value: 60
+      message: +20 starting shovels
+      quoteOverride: 
+      minDepth: 0
+    - value: 100
+      message: +40 starting shovels
+      quoteOverride: 
+      minDepth: 100
+    - value: 200
+      message: +100 starting shovels
+      quoteOverride: 
+      minDepth: 200
+  initialDynamites:
+    levels:
+    - value: 0
+      message: 
+      quoteOverride: 
+      minDepth: 0
+    - value: 2
+      message: start with 2 dynamites
+      quoteOverride: 
+      minDepth: 0
+    - value: 5
+      message: +3 starting dynamites
+      quoteOverride: 
+      minDepth: 50
+    - value: 10
+      message: +5 starting dynamites
+      quoteOverride: 
+      minDepth: 100
+  initialStoners:
+    levels:
+    - value: 0
+      message: 
+      quoteOverride: 
+      minDepth: 0
+    - value: 5
+      message: start with 5 stoners
+      quoteOverride: 
+      minDepth: 0
+    - value: 10
+      message: +5 staring stoners
+      quoteOverride: 
+      minDepth: 100
+    - value: 20
+      message: +10 staring stoners
+      quoteOverride: 
+      minDepth: 200
+  doubleJump:
+    levels:
+    - value: 0
+      message: 
+      quoteOverride: 
+      minDepth: 0
+    - value: 1
+      message: double jump
+      quoteOverride: yes you can
+      minDepth: 0
+  notDeepEnoughMessage: not deep enough for upgrade
+--- !u!114 &5907861074933413131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315264953252518929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c16b74323c99d4498d46ede971857a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSandClips:
+  - {fileID: 8300000, guid: 33c692c4cc35d1645b8964c5245dfd67, type: 3}
+  - {fileID: 8300000, guid: fb3d1e3c34d30e4449ee36ca9870aead, type: 3}
+  - {fileID: 8300000, guid: da236fb94613a404a9a76899e0ea5d21, type: 3}
+  - {fileID: 8300000, guid: 5b7f72626edb0c44ab8cc3fab4b52dbb, type: 3}
+  explosionClips:
+  - {fileID: 8300000, guid: 17a777ee4f37602458cb50b74bff5aa7, type: 3}
+  getDamageClips:
+  - {fileID: 8300000, guid: 81710effa9afad14c85fa4f1be8090b6, type: 3}
+  getSmallBonusClips:
+  - {fileID: 8300000, guid: 4794a8031a8711b4f84e8bd91f5c0770, type: 3}
+  getScrollClips:
+  - {fileID: 8300000, guid: 8ea67a1cd611b944888a6573e526111b, type: 3}
+  winClips:
+  - {fileID: 8300000, guid: 8ea67a1cd611b944888a6573e526111b, type: 3}
+  loseClips:
+  - {fileID: 8300000, guid: 02ba0d9af930a1241a01215790297bfd, type: 3}
+  jumpClips:
+  - {fileID: 8300000, guid: 2e481519d7882304f9c128d85185a090, type: 3}
+  - {fileID: 8300000, guid: cd6954c7a708e4b4a94134f20fd4eb70, type: 3}
+  - {fileID: 8300000, guid: fa8a08324166db840a9fa2205f624567, type: 3}
+  sayClips:
+  - {fileID: 8300000, guid: 7b9f2a2be535e7f4bb21dcd22d07428a, type: 3}
+  - {fileID: 8300000, guid: e8afc33b96a2f9e42a8255ae260df379, type: 3}
+  - {fileID: 8300000, guid: 44dabadaaa0e19c45b2a9526061913f4, type: 3}
+  source: {fileID: 687772346}
+--- !u!82 &687772346
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315264953252518929}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

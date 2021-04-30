@@ -29,7 +29,7 @@ public class Player : Singleton<Player>, ISceneSingleton {
         if (Time.unscaledTime > 0.1f) {
             rb.bodyType = RigidbodyType2D.Dynamic;
         }
-        SuperBlock.EnsureCreated (transform.position, 30);
+        SuperBlock.EnsureCreated (transform.position, 60);
 
         UpdateMovement ();
 

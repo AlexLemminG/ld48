@@ -60,15 +60,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   viewDistance:
     levels:
-    - value: 24
+    - value: 75
       message: 
       quoteOverride: 
       minDepth: 0
-    - value: 18
+    - value: 100
       message: view distance improved
       quoteOverride: 
       minDepth: 0
-    - value: 12
+    - value: 150
       message: view distance improved
       quoteOverride: 
       minDepth: 100

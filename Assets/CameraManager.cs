@@ -26,6 +26,6 @@ public class CameraManager : Singleton<CameraManager>, ISceneSingleton {
 
         transform.position = new Vector3 (currentPos.x, currentPos.y, -10f);
 
-        GetComponent<PixelPerfectCamera> ().assetsPPU = ScrollBonusManager.instance.viewDistance.GetVar ();
+        GetComponent<Camera> ().orthographicSize = ScrollBonusManager.instance.viewDistance.GetVar () / 10f;
     }
 }
